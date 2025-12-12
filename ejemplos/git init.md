@@ -1,0 +1,2 @@
+
+Comando de [[Git]] que inicializa el repositorio. Añade un  directorio `.git`. En esta carpeta se almacena toda la estructura de datos de git, una vez eliminada esta carpeta desaparece repositorio. *En cierto sentido git es un programa sin estado, necesita encontrar la carpeta git para hacerse a la idea.*
