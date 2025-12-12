@@ -64,7 +64,7 @@ def main():
         upload_button.click(fn=read_file, inputs=file_loader, outputs=added_files)
         insert_button.click(fn=embed) 
         consulta.submit(fn=consultar, inputs=consulta, outputs=respuesta)
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=False)
     
     return 0
 
